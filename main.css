@@ -1,0 +1,85 @@
+
+.middle-nav {
+	background-color: #156030;
+	height: auto;
+	font-family: BadaBoom BB Regular;
+	color: white;
+}
+.middle-nav h1  {
+	text-shadow: 6px 6px black;
+	font-size: 6em;
+}
+.middle-nav h3  {
+	text-shadow: 3px 3px black;
+	font-size: 3em;
+}
+.video-player {
+	padding-top: 80px;
+	padding-bottom: 40px;
+}
+.player {
+}
+.midde-nav ul {
+	list-style: none;
+	text-align: center;
+}
+.middle-nav li {
+	float:left;
+	display: block;
+	padding:12px;
+	font-size: 2.3rem;
+	text-shadow: 3px 3px black;
+}
+
+
+.left-nav {
+	background-color: black;
+	font-family: BadaBoom BB Regular;
+	color: white;
+	font-size:3rem;
+}
+.left-nav ul {
+	padding-top:25px;
+	text-align: center;
+	list-style: none;
+}
+.left-nav li{
+	padding-bottom: 20px;
+}
+.left-nav a{
+	color: #156030;
+	text-shadow: 3px 3px black;
+}
+.left-nav a:hover {
+	color: white;
+}
+@font-face {
+	font-family: "BadaBoom BB Regular";
+	src: url("BADABB_.TTF");
+	url("BADABB_.TTF"") format("TTF")
+}
+.main-list {
+	margin-left: 100px;
+}
+@media screen and (min-width: 770px) {
+	.twitter-feed {
+		display: none;
+	}
+}
+@media  screen and (max-width: 590px) {
+	.middle-nav h1  {
+		text-shadow: 4px 4px black;
+		font-size: 4.5em;
+	}
+	.middle-nav li {
+	float:left;
+	display: block;
+	padding:12px;
+	font-size: 2.3rem;
+	text-shadow: 3px 3px black;
+	}
+	.main-list {
+	margin-left: 20px;
+	}
+}
+}

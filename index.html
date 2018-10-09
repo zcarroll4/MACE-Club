@@ -1,0 +1,151 @@
+<html>
+	<head>		
+		  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">	<link rel="stylesheet" href="main.css">
+		  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+		      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+		    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+		    
+
+		<style>
+		body {
+			margin: 0;
+			padding: 0;	
+		}
+		@media screen and (max-width: 600px) {
+		  div.feed {
+			display: none;
+		  }
+			.middle-nav h1 {
+				    text-shadow: 4px 4px black;
+    					font-size: 4.5em;
+			}
+			.middle-nav li {
+		float: left;
+		display: block;
+		padding: 8px;
+		font-size: 1.6rem;
+		text-shadow: 2px 2px black;
+		}
+			.middle-nav h3 {
+		text-shadow: 3px 3px black;
+		font-size: 2.5em;
+			}
+			.video-player {
+		    padding-top: 50px;
+		    padding-bottom: 40px;
+		    border-bottom:2px;
+		    border-style:solid;
+		}
+		.main-list {
+			margin-left: 100px;
+		}
+		.container-fluid {
+		    padding-right: 0px;
+		    padding-left: 0px;
+		   }
+			
+		</style>
+	</head>	
+	<body>
+	<div class="container-fluid">
+		<div class="col-lg-4 col-sm-4 left-nav text-center">
+			<img src="logo.png" width="65%">
+			<ul class="text-center">
+				<li><a href="#">Home</a></li>
+				<li><a href="#active-chapter">Active Chapter</a></li>  
+				<li><a href="events.html">Events</a></li> 
+				<li><a href="store.html">Store</a></li>
+			</ul>
+			<div class="twitter-feed text-center feed" id="twitter-feed">
+				<a class="twitter-timeline" href="https://twitter.com/MACE_Club?ref_src=twsrc%5Etfw"data-tweet-limit="4"data-width="300"
+  				data-height="300"data-chrome="nofooter noborders">Tweets by MACE_Club</a> <script async src="https://platform.twitter.com/widgets.js"  charset="utf-8"></script>
+			</div>		
+		</div>
+		<div class="col-lg-8 col-sm-8 middle-nav text-center">
+			<h1>The M.A.C.E. Club</h1>
+			<div class="col-lg-12  text-center main-list" >
+			<ul>
+				<li>Manhood</li>
+				<li>Achievement</li>
+				<li>Christian/Character</li>
+				<li>Education</li>
+			</ul>
+			</div>
+			<div class="video-player col-lg-12 col-sm-12">
+				<h3>Fall Recruitment Video 2018</h3>
+				<video width="100%" controls class="player">
+				  <source src="DinnerVideo.mp4" type="video/mp4">
+				  <source src="movie.ogg" type="video/ogg">
+				Your browser does not support the video tag.
+				</video>
+			</div>
+			<section class="active-chapter">
+	
+		<div class="container-fluid">
+  <h2>Active Chapter Slideshow</h2>  
+  <div id="myCarousel" class="carousel slide" data-ride="carousel">
+    
+    <!-- Wrapper for slides -->
+    <div class="carousel-inner">
+      <div class="item active">
+        <img src="Slideshow/1.jpg" alt="" width="100%">
+      </div>
+
+      <div class="item">
+        <img src="Slideshow/2.jpg" alt="" width="100%">
+      </div>
+    
+      <div class="item">
+        <img src="Slideshow/3.jpg" alt="" width="100%">
+      </div>
+      <div class="item active">
+        <img src="Slideshow/4.jpg" alt="" width="100%">
+      </div>
+
+      <div class="item">
+        <img src="Slideshow/5.jpg" alt="" width="100%">
+      </div>
+    
+      <div class="item">
+        <img src="Slideshow/6.jpg" alt="" width="100%">
+      </div>
+      <div class="item active">
+        <img src="Slideshow/7.jpg" alt="" width="100%">
+      </div>
+
+      <div class="item">
+        <img src="Slideshow/8.jpg" alt="" width="100%">
+      </div>
+    
+      <div class="item">
+        <img src="Slideshow/9.jpg" alt="" width="100%">
+      </div>
+      <div class="item">
+        <img src="Slideshow/10.jpg" alt="" width="100%">
+      </div>
+
+      <div class="item">
+        <img src="Slideshow/11.jpg" alt="" width="100%">
+      </div>
+    
+      <div class="item">
+        <img src="Slideshow/12.jpg" alt="" width="100%">
+      </div>
+    </div>
+
+    <!-- Left and right controls -->
+    <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+      <span class="glyphicon glyphicon-chevron-left"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="right carousel-control" href="#myCarousel" data-slide="next">
+      <span class="glyphicon glyphicon-chevron-right"></span>
+      <span class="sr-only">Next</span>
+    </a>
+  </div>
+</div>
+			</section>
+		</div>
+    </div>
+</body>
+</html>
