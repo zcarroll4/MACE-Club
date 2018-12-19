@@ -14,11 +14,11 @@
 	font-size: 3em;
 }
 .video-player {
-	padding-top: 80px;
-	padding-bottom: 40px;
+    padding-bottom: 20px;
+    /*border-bottom: 2px;
+    border-style: solid;*/
 }
-.player {
-}
+
 .midde-nav ul {
 	list-style: none;
 	text-align: center;
@@ -61,25 +61,9 @@
 .main-list {
 	margin-left: 100px;
 }
-@media screen and (min-width: 770px) {
+@media screen and (max-width: 770px) {
 	.twitter-feed {
 		display: none;
 	}
 }
-@media  screen and (max-width: 590px) {
-	.middle-nav h1  {
-		text-shadow: 4px 4px black;
-		font-size: 4.5em;
-	}
-	.middle-nav li {
-	float:left;
-	display: block;
-	padding:12px;
-	font-size: 2.3rem;
-	text-shadow: 3px 3px black;
-	}
-	.main-list {
-	margin-left: 20px;
-	}
-}
-}
+
